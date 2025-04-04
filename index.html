@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My basic portfolio</title>
+    <title>They call me...</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="phone.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans">
@@ -14,12 +14,14 @@
 <body>
 
     <!--SIDE-->
-    <div class="side">
-        <img src="profilepic.jpg" class="pic">
-        <!--put icon beside links-->
-        <h1 class="info">Loisse Joy G. Parot</h1>
-        <h2 class="section"><i>BS INFOTECH 302 B</i></h2>
-        <div class="divider white"></div>
+    <div class="side" id="home">
+        <div class="side-div">
+            <img src="profilepic.jpg" class="pic">
+            <h1 class="info">Loisse Joy G. Parot</h1>
+            <h2 class="section"><i>BS INFOTECH 302 B</i></h2>
+            <div class="divider white"></div>
+        </div>
+        
             <div class="side-div">
                 <a href="#personal-details" class="options">Personal Details</a>
                 <a href="#education" class="options">Education</a>
@@ -27,13 +29,13 @@
                 <a href="#dummy-projects" class="options">Dummy Projects</a>
             </div>
 
-            <div class="side-div">
+            
                 <div class="links">
                     <a href="https://www.facebook.com/imdWyzard"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://github.com/lpJei"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
-        </div>
+        
 
     <!--HALF-->
     <div class="half">
@@ -190,6 +192,10 @@
         <p class="hidden">
             Credits to my little, fluffy hay enjoyers: Large, Butter, Panda, Peanut, Uno, Chiz *heart emoji*
         </p>
+
+        <a href="#home" class="toHome options"><i class="fa-solid fa-arrow-up"></i></a>
+
+        </div>
     </div>
 </body>
 </html>
